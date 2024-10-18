@@ -1,0 +1,27 @@
+body {
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: red;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {background-color: beige;
+    font-weight: lighter;
+}
+
+h2 {background-color: beige;
+    color: gray;
+    font-size: 10pt;
+}
+
+
+#milista{
+    background-color: chocolate;
+    color: white;
+    font-size: 10pt;
+    list-style: none;
+    background: black;}
+ #miparrafo{
+    color:beige;
+    font-size: 10pt;
+}
