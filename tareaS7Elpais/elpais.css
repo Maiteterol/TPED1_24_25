@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+nav{
+    height: 100px;
+    background-color: black;
+
+}
+nav ul{
+     padding-top: 30px;
+    
+}
+nav ul li {
+    width: 33%;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+h1{
+    
+    font-size: 150px;
+    text-align: center;
+    
+} 
+.caja{
+    width: 60%;
+    margin: auto;
+    
+}
+.centro{
+    padding-left: 400px;
+    text-align: center;
+}
+a:link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+img{
+    width: 100%;
+} 
+
+p{
+    padding-left: 400px;
+    font-size: 50px;
+    text-align: left;
+    
+}
+p.letra::first-letter{
+    font-size: 400px;
+    font-weight: bolder;
+    float: left;
+    
+    
+  
+    
+}
+
+.gris{
+    padding-left: 400px;
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+
+}
+.gris2{
+    padding-left: 1200px;
+    color: grey;
+    font-size:5px
+    text-align: center;
+
+}
+section ul li{
+    padding-left: 600px;
+    display:inline-block;
+    
+}
+.resaltar{
+    font-weight: bold;
+    text-decoration-style: dotted;
+    
+}
+.negro{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size:50px;
+}
+article ul li{
+    padding-left: 400px;
+    display:inline-block;
+    
+}
+
