@@ -23,6 +23,12 @@ nav ul li {
     text-align: center;
     
 }
+.parte1{
+    color: white;
+}
+.parte2{
+    color: aquamarine;
+}
 
 h1{
     
@@ -53,13 +59,14 @@ p{
     padding-left: 400px;
     font-size: 50px;
     text-align: left;
+    line-height: 1.4;
     
 }
 p.letra::first-letter{
     font-size: 400px;
-    font-weight: bolder;
-    float: left;
-    
+    font-weight: bold;
+    initial-letter: 5;
+    margin-right:50px;
     
   
     
@@ -75,7 +82,7 @@ p.letra::first-letter{
 .gris2{
     padding-left: 1200px;
     color: grey;
-    font-size:5px
+    font-size:5px;
     text-align: center;
 
 }
@@ -86,6 +93,7 @@ section ul li{
 }
 .resaltar{
     font-weight: bold;
+    text-decoration:underline;
     text-decoration-style: dotted;
     
 }

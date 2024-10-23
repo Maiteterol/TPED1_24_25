@@ -1,4 +1,30 @@
-h1{
-    color: blue;
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightsalmon;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    height: 100px;
+    background-color: black;
+
+}
+header{
+    margin-top: 10%;
+}
+
+h1{ 
+    font-size: 80px;
+    margin-left: 40%;
+    color: white;
+    background-color: black;
+}
+
+li{
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+    color: crimson;
 }
