@@ -5,7 +5,7 @@
     background-color: lightsalmon;font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav{
-    height: 100px;
+    height: 200px;
     background-color: black;
 
 }
@@ -14,7 +14,7 @@ header{
 }
 
 h1{ 
-    font-size: 80px;
+    font-size: 100px;
     margin-left: 40%;
     color: white;
     background-color: black;
@@ -22,7 +22,7 @@ h1{
 
 li{
     margin-left: 5%;
-    font-size: 20px;
+    font-size: 100px;
     color: white;
 }
 a:hover{
