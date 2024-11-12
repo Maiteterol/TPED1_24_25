@@ -10,7 +10,7 @@ nav{
 
 }
 header{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 h1{ 
@@ -22,7 +22,7 @@ h1{
 
 li{
     margin-left: 5%;
-    font-size: 100px;
+    font-size: 50px;
     color: white;
 }
 a:hover{
