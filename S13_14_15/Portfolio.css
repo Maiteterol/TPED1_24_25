@@ -22,42 +22,31 @@ h1{
     text-align: center;
     
 }
-#lightgallery{
-    
-    align-items: center;
-    justify-content: center;
+section{
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     flex-wrap: wrap;
-    height: 1000px;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1200px;
+    width: auto;
     
 }
 
-a{
-    display: flex;
-}
+
 a img{
-    width: 900px;  
+   
+    width: 500px;  
     height: auto;
-    object-fit: cover;
-    border: 15px solid white;
+    border: 10px solid white;
     cursor: pointer;
     transition: 0.3s;
     
    
 } 
-#lightgallery a img:hover {opacity: 0.7;
-    border-radius: 40px;
+a img:hover {opacity: 0.7;
+    border-radius: 20px;
     border: 15px solid black;
 }
 
-.desc{
-    background-color: black;
-    border: 15px solid white;
-    font-size: 2cm;
-    color: white;
-    
-    text-align: center;
-    
-    }

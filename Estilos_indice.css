@@ -2,29 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightsalmon;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav{
+header{
     height: 200px;
     background-color: black;
 
 }
-header{
-    margin-top: 2%;
-}
-
 h1{ 
-    font-size: 100px;
+    font-size: 8em;
     margin-left: 40%;
     color: white;
     background-color: black;
+    margin-top: 2%;
+}
+section{
+    height: 1000px;
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
 }
 
-li{
-    margin-left: 5%;
-    font-size: 50px;
+
+
+section ol li a {
     color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 5em;
+    margin-left: 2%;
+    align-items: center;
 }
-a:hover{
+section ol li a:hover{
     color: crimson;
 }
+
+    
+
