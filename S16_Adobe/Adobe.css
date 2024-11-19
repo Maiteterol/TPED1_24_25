@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+section{
+    width: 99%;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(img/flor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+nav { 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white;
+    font-size: 5em;
+    list-style-type: none;
+}
+.n1{
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+
+.c1 {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    width: 45%;
+    height: 80vh;
+  
+}
+
+h2 {
+    align-items: flex-start;
+    font-size: 8em;
+   
+
+}
+p{
+    align-items: flex-start;
+    font-size: 5em;
+   
+}
+
+.c2{
+    
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:flex-end;
+    align-items: flex-start;
+
+    
+}
+.azul{ 
+    align-items:flex-start ;
+    font-size:  5em; 
+    color: deepskyblue;
+    margin-top: 5vh;
+
+}
+
+footer{
+    width: 99%;
+    height: 20vh;
+    margin-right: auto;
+    margin-left: auto; 
+    background-color:black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+.f1{
+    height: 6vh;
+   
+}
+footer ul li {
+    display: inline-block;
+    justify-content: space-between;
+    
+    
+}    
+footer ul li p {
+    
+    text-decoration: none; 
+    color: white;
+    font-size: 5em;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.f2{
+    width: 99%;
+    height: 14vh;
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+}
+.amarillo{
+    color: gold;
+}
+.desc{
+    font-size: 3em;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+}
