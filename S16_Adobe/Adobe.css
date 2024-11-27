@@ -41,12 +41,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none; 
     color: white;
-    font-size: 5em;
+    font-size: 2em;
     list-style-type: none;
 }
 .n1{
     width: 25%;
-    height: 10vh;
     display: flex;
     justify-content: flex-start;
 
@@ -62,26 +61,25 @@ nav ul li a {
     justify-content: flex-start; 
     align-items: flex-start;
     width: 45%;
-    height: 80vh;
+    
   
 }
 
 h2 {
     align-items: flex-start;
-    font-size: 8em;
+    font-size: 2em;
    
 
 }
 p{
     align-items: flex-start;
-    font-size: 5em;
+    font-size: 1em;
    
 }
 
 .c2{
     
     width: 50%;
-    height: 50vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content:flex-end;
@@ -91,7 +89,7 @@ p{
 }
 .azul{ 
     align-items:flex-start ;
-    font-size:  5em; 
+    font-size:  2em; 
     color: deepskyblue;
     margin-top: 5vh;
 
@@ -104,7 +102,7 @@ footer{
     margin-left: auto; 
     background-color:black;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
     
@@ -112,7 +110,7 @@ footer{
 }
 
 .f1{
-    height: 6vh;
+    
    
 }
 footer ul li {
@@ -125,7 +123,7 @@ footer ul li p {
     
     text-decoration: none; 
     color: white;
-    font-size: 5em;
+    font-size: 1em;
     list-style-type: none;
     justify-content: space-between;
 }
@@ -139,7 +137,7 @@ footer ul li p {
     color: gold;
 }
 .desc{
-    font-size: 3em;
+    font-size: 1em;
     color: white;
     display: flex;
     flex-flow: row nowrap;

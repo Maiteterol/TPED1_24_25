@@ -6,16 +6,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    height: 200px;
+    height: 100px;
     background-color: black;
+    padding-top: 50px;
 
 }
 h1{ 
-    font-size: 8em;
+    font-size: 3em;
     margin-left: 40%;
     color: white;
-    background-color: black;
-    margin-top: 2%;
+    background-color: black; 
 }
 section{
     height: 1000px;
@@ -31,7 +31,7 @@ section ol li a {
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: 5em;
+    font-size: 1em;
     margin-left: 2%;
     align-items: center;
 }

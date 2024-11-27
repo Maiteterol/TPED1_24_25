@@ -1,0 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Saira+Stencil+One&family=Sirin+Stencil&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sirin-stencil-regular {
+    font-family: "Sirin Stencil", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+  }
+  
+header{
+    height: 15%;
+    width: 99%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+section{
+    background-color:darkcyan;
+    width: 99%;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    font-size: 2em;
+    color: darkcyan;
+    
+}
+#tipografia > div{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: ;
+
+}
