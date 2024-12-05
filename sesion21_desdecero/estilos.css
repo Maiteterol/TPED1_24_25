@@ -4,13 +4,14 @@
 }
 header{
     width: 100%;
-    background-color: gray;
+    height: auto;
+    background-color: black;
     color: white;
     text-align: center;
 }
 main{
     width: 100%;
-    background-color: bisque;
+    background-color:indianred;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -50,9 +51,10 @@ article {
   margin-top: 7px;
   text-align: center;
 }
+
 footer{
     width: 100%;
-    background-color: gray;
+    background-color: black;
     text-align: center;
 
 }
@@ -71,6 +73,10 @@ footer{
     background-color: red;
     color: white;
   }
+  img{
+    background-color: white;
+    width: 100%;
+  }
   
 }
 @media (max-width: 500px){
@@ -81,9 +87,15 @@ footer{
   nav{
     width: 100%;
 }
+
+  section{
+  margin-left: 110px;
+}
 article{
   width: 100%;
 }
-section{
-  margin-left: 110px;
+  img{
+  width: 100%;
+  background-color: white;
+}
 }
