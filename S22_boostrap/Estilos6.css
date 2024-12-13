@@ -1,0 +1,47 @@
+
+        div {
+            box-sizing: border-box; 
+        }
+       
+        #supi {
+            
+            height: 120vh;
+        }
+        #supd {
+            background-color: rgb(247, 210, 101);
+            height: 120vh;
+        }
+        #a1 {
+           
+            height: 20vh;
+        }
+        #a2{
+            background-color: aqua;
+            height: 20vh;
+
+
+        }
+        #b1{
+            background-color: antiquewhite;
+            height: 90vh;
+        }
+       
+       #b2 {
+        background-color: blueviolet;
+        height: 90vh;
+
+       }
+       #c1 {
+        
+        height: 10vh;
+
+       }
+       #c2 {
+        background-color:darkblue;
+        height: 10vh;
+
+       }
+        @media (min-width: 768px) {
+            
+        }        
+        

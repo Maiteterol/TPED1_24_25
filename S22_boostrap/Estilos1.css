@@ -1,0 +1,17 @@
+
+        div {
+            box-sizing: border-box; 
+        }
+        #izquierda {
+            background-color: aqua;
+            height: 90vh;
+        }
+       #derecha {
+        background-color: blueviolet;
+        height: 90vh;
+
+       }
+        @media (min-width: 768px) {
+            
+        }        
+        

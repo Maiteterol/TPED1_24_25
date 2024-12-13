@@ -1,0 +1,21 @@
+
+        div {
+            box-sizing: border-box; 
+        }
+        #arriba{
+            background-color: bisque;
+            height: 20vh;
+        }
+        #izquierda {
+            background-color: rgb(247, 210, 101);
+            height: 90vh;
+        }
+       #derecha {
+        background-color: blueviolet;
+        height: 90vh;
+
+       }
+        @media (min-width: 768px) {
+            
+        }        
+        
