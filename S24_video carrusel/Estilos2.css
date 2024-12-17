@@ -1,0 +1,29 @@
+
+        div {
+            box-sizing: border-box; 
+        }
+        #arriba{
+            background-color: bisque;
+            height: 20vh;
+        }
+        #izquierda {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: rgb(247, 210, 101);
+            height: 90vh;
+        }
+       #derecha {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-top: 50px;
+        background-color: blueviolet;
+        height: 90vh;
+
+       }
+        @media (min-width: 768px) {
+            
+        }        
+        
