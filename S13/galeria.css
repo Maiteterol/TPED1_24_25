@@ -8,7 +8,7 @@
 }
 
 header{
-    height: 300px;
+    height: 100px;
     background-color: black;
     justify-content:center;
     margin-bottom: 80px; 
@@ -26,7 +26,7 @@ section{
     
 }
 h1{ 
-    font-size:15em;
+    font-size:4em;
     color: white;
     background-color: black;
     text-align: center;
@@ -35,11 +35,11 @@ h1{
 .desc{
     background-color: black;
     border: 1px solid white;
-    font-size: 2cm;
+    font-size: 1em;
     color: white;
     margin-left: 50px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 .galeria{
     width: 100%;
@@ -64,10 +64,10 @@ h1{
     border: 1px solid black;
     margin-top: 50px;
     margin-left: 50px;
-    width: 900px;  
+    width: 300px;  
     height: auto;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 

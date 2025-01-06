@@ -1,0 +1,27 @@
+
+        div {
+            box-sizing: border-box; 
+        }
+        #izquierda {
+            background-color: #f5e4d3;
+            height: 100vh;
+            text-align: center;
+            padding-top: 150px;
+            font-size: 6em;
+            border-color: black;
+            border-style: groove;
+        }
+       #derecha {
+        background-color: black;
+        height: 100vh;
+        color:  #f5e4d3;
+        padding-top: 150px;
+        text-align: center;
+        border-style: groove;
+        border-color:  #f5e4d3;
+
+       }
+        @media (min-width: 768px) {
+            
+        }        
+        
