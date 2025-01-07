@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-/* Resetear márgenes y padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,17 +18,18 @@ body {
 .container {
     display: flex;
     height: 100vh;
+
    
 }
 
-/* Sección Izquierda: Imagen */
-.left-section {
+
+.secciónizquierda{
     flex: 1;
     background: url(img/m.jpg) no-repeat center center/cover;
 }
 
-/* Sección Derecha: Contenido */
-.right-section {
+
+.secciónderecha{
     flex: 1;
     background-color: #000;
     display: flex;
@@ -39,7 +40,7 @@ body {
     padding: 2rem;
 }
 
-.title {
+.titulo{
     font-size: 4rem;
     text-align: center;
     color: #f5e4d3;
@@ -50,17 +51,17 @@ body {
 
 
 
-/* Botones de enlaces */
+
 .links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 150px; /* Equidistancia con espacio fijo */
+    height: 150px; 
     margin: 2rem 0;
 }
 
-.button {
+.boton {
     display: inline-block;
     padding: 0.5rem 1rem;
     color: #f5e4d3;
@@ -72,26 +73,27 @@ body {
     text-align: center;
 }
 
-.button:hover {
+.boton:hover {
     background-color: #f5e4d3;
     color: #000;
 }
 
 
-/* Menú Lateral */
-.side-menu {
+
+.menulateral {
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
     background-color: #111;
+    border: 3px solid #f5e4d3;
     width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.side-menu ul {
+.menulateral ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -100,17 +102,24 @@ body {
     padding: 0;
 }
 
-.side-menu a {
+.menulateral a {
     color: #f5e4d3;
     text-decoration: none;
+    border-right: 3px solid #f5e4d3;
+    padding: 25px;
     font-size: 0.9rem;
     transform: rotate(90deg);
     display: inline-block;
+    
 }
 
-.side-menu .active a {
-    font-weight: bold;
-    border-left: 3px solid #f5e4d3;
-    padding-left: 0.5rem;
+
+
+.menulateral a:hover {
+    background-color: #f5e4d3;
+    color: #000;
 }
+@media (min-width: 768px) {
+            
+}   
 
