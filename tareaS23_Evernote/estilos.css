@@ -1,0 +1,55 @@
+div {
+    box-sizing: border-box; 
+}
+h1{
+    color: rgb(71, 138, 5);
+    font-size: 2em;
+}
+#primero{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+#segundo{
+    border-bottom: 1px solid black;
+    padding-block: 30px;
+
+}
+#supce{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#supde{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+#supde  ul li  {
+    color: rgb(71, 138, 5);
+    text-align: center;
+    list-style-type: none;
+    
+}
+#supce li a{
+    color: rgb(71, 138, 5);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#contenedorflex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+
+
+}
+#ultimo{
+    padding-block: 30px;
+}
